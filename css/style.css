@@ -1,0 +1,136 @@
+body{
+	background: #e6f3ff;
+	height: 1000px;
+  position: relative;
+}
+
+#header{
+	background: black;
+  overflow: hidden;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: left;    
+}
+
+a.navbar-right 
+{
+  padding: 0px 15px 0px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+
+}
+
+  .navbar-toggle{
+     margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: black;
+      
+      border: 0;
+      font-size: 12px !important;
+      line-height: 2 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+  }
+
+  
+
+  .navbar li a, .navbar{
+      color: #fff !important;
+  }
+
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+
+  }
+
+ #location_search{
+  	height: 8% ;
+    width: 90%;
+    margin: auto;
+  	margin-top: 20px;
+  	background: yellow;
+    overflow: hidden;
+  }
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+    margin-left: 10% !important;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:50% !important;
+    width:90% !important;
+    position:absolute;
+    overflow: hidden;
+  }
+
+#reviews{
+	  height: 40% !important;
+    width: 90% !important;
+    margin: auto;
+    background: yellow;
+  	margin-top: 20px;
+    overflow: hidden;
+}
+
+#new_in_town{
+	  height: 40% !important;
+    width: 90% !important;
+    margin: auto;
+  	margin-top: 20px;
+  	background: yellow;
+    overflow: hidden;
+}
+
+.block_logo{
+  height:100% !important; 
+  width:20% !important;
+  overflow: hidden;
+}
+
+#footer{
+	  width:100% important;
+  	height: 200px;
+  	margin-top: 20px;
+  	background: black;
+
+}
+
+.rating-static {
+  width: 60px;
+  height: 16px;
+  display: block;
+  background: url('http://www.itsalif.info/blogfiles/rating/star-rating.png') 0 0 no-repeat;
+}
+
+.rating-50 { background-position: 0 0; }
+.rating-40 { background-position: -12px 0; } 
+.rating-30 { background-position: -24px 0; }
+.rating-20 { background-position: -36px 0; }
+.rating-10 { background-position: -48px 0; }
+.rating-0 { background-position: -60px 0; }
+ 
+.rating-5  { background-position: -48px -16px; }
+.rating-15 { background-position: -36px -16px; }
+.rating-25 { background-position: -24px -16px; }
+.rating-35 { background-position: -12px -16px; }
+.rating-45 { background-position: 0 -16px; }
